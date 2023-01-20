@@ -28,7 +28,7 @@ Label(window, text="Barrage Message Program", background="#A9A9A9", font=('Tempu
 Label(window, text="-----------------------------------------", background="#A9A9A9", font=('Tempus Sans ITC', 22)).pack()
 
 window.configure(background="#A9A9A9")
-Label(window, text="Enter your massage(English)", bg="#A9A9A9", fg="black", font=('Tempus Sans ITC', 22)).pack()
+Label(window, text="Enter your massage", bg="#A9A9A9", fg="black", font=('Tempus Sans ITC', 22)).pack()
 Label(window, text="", background="#A9A9A9").pack()
 get1 = Entry(window, font=('Tempus Sans ITC', 22), bg="#C0C0C0", bd=0)
 get1.pack()
